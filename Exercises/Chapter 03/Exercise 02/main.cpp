@@ -29,9 +29,9 @@ int main()
 
 	const int INCHES_IN_FEET = 12;
 	const double METERS_IN_ICNH = 0.0254;
-	int height = (feet * INCHES_IN_FEET + inches) * METERS_IN_ICNH;
-
 	const double POUNDS_IN_KG = 2.2;
+
+	double height = (feet * INCHES_IN_FEET + inches) * METERS_IN_ICNH;
 	double weight = pounds / POUNDS_IN_KG;
 
 	double bmi = weight / (height * height);
