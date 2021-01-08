@@ -11,7 +11,7 @@ int main()
 {
 	using namespace std;
 
-	cout << "Enter your height (in inches): ";
+	cout << "Enter your height (in inches):___\b\b\b";
 	int height;
 	cin >> height;
 
